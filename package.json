@@ -10,6 +10,7 @@
     "verifyContract": "hardhat verify --network kovan ",
     "verifyContracts": "hardhat run  scripts/verifyContracts.ts",
     "coverage": "yarn build && COVERAGE=true hardhat coverage",
+    "coverall": "coveralls < coverage/lcov.info",
     "clean": "hardhat clean",
     "clean:coverage": "rm -f coverage.json && rm -rf coverage",
     "clean:all": "yarn clean && yarn clean:coverage"
@@ -53,6 +54,7 @@
   },
   "dependencies": {
     "chalk": "^5.0.0",
+    "coveralls": "^3.1.1",
     "tslog": "^3.2.2"
   }
 }

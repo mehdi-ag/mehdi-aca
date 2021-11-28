@@ -1,4 +1,5 @@
 # Simple Upgradable ERC20 Token With Kill Switch
+[![Coverage Status](https://coveralls.io/repos/github/mehdi-ag/mehdi-aca/badge.svg?branch=main)](https://coveralls.io/github/mehdi-ag/mehdi-aca?branch=main)
 #### Addresses and TX
 ```
 ERC20v1: 0xfE658F8f61cA6a9D7DCf504bE4CF32ab537b2545
